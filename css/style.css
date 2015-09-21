@@ -3,7 +3,7 @@ body {
     /* Typography Declarations */
     color: #222222;
     font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Neuton", Georgia, serif;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,7 @@ body {
 
 .masthead {
     padding: 6em 0;
-    background-image: url('https://images.unsplash.com/37/rVvORijmSGFcCD1Qin5e_2014-02-23%2006.21.30%201.jpg?q=80&fm=jpg&s=7a028e6f5cf8f5fc1d3a18a2e9a0a0a7');
+    background-image: url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 45%;
@@ -27,20 +27,21 @@ body {
     /* Layout Declarations */
     margin-bottom: 0.1em;
     /* Typography Declarations */
-    font-family: "Gentium Book Basic", Georgia, serif;
+    font-family: "Neuton", Georgia, serif;
     font-size: 2em;
-    color: #222222;
+    font-weight: 700;
+    color: #fff; /* #222222 */
 }
 
 .masthead-heading {
     /* Layout Declarations */
     margin-top: -0.2em;
     /* Typography Declarations */
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 6em; 
     text-shadow: 5px 5px 7px #373737;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.1em;
     text-transform: uppercase;
     color: #fff;
 }
@@ -84,6 +85,7 @@ body {
 section > h1 {
     margin-top: 1.2em;
     font-size: 2em;
+    font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 .content-footer {
