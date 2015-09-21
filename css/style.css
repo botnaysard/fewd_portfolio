@@ -1,7 +1,7 @@
 html,
 body {
     /* Typography Declarations */
-    color: #222222;
+    color: #4c4c4c;
     font-size: 1em;
     font-family: "Neuton", Georgia, serif;
     margin: 0;
@@ -16,11 +16,11 @@ body {
 
 .masthead {
     padding: 6em 0;
-    background-image: url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
+    background-image: url('https://images.unsplash.com/46/yzS7SdLJRRWKRPmVD0La_creditcard.jpg?q=80&fm=jpg&s=9578e4a415353d71f9b017bac978a7d7');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 45%;
-    border-top: solid 1em #ff0066;
+    background-position: 0% 75%;
+    /* border-top: solid 1em #fa8b3a; */
 }
 
 .masthead-intro {
@@ -29,7 +29,7 @@ body {
     /* Typography Declarations */
     font-family: "Neuton", Georgia, serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
     color: #fff; /* #222222 */
 }
 
@@ -40,7 +40,7 @@ body {
     font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 6em; 
-    text-shadow: 5px 5px 7px #373737;
+    text-shadow: -5px 0px 0px #00495c;
     letter-spacing: -0.1em;
     text-transform: uppercase;
     color: #fff;
@@ -55,16 +55,6 @@ body {
     margin-top: 2em;
 }
 
-.social {
-    padding: 0em;
-}
-
-.social > li {
-    display: inline-block;
-    padding: 0.5em;
-    font-size: 1em;
-}
-
 .introduction-section > p,
 .location-section > p,
 .content-footer > p {
@@ -77,7 +67,7 @@ body {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
     font-weight: bold;
-    color: #ff0066;
+    color: #4c4c4c;
     /* Layout */
     margin: 2em 0 1em 0;
 }
@@ -86,11 +76,12 @@ section > h1 {
     margin-top: 1.2em;
     font-size: 2em;
     font-family: "Montserrat", Helvetica, sans-serif;
+    color: #00495c;
 }
 
 .content-footer {
-    background-color: #585858;
-    color: #ffffff;
+    background-color: #003e59;
+    color: #80a4ae;
     padding-top: 3em;
     padding-bottom: 3em;
     margin-top: 5em;
@@ -99,15 +90,51 @@ section > h1 {
 /* formatting for links; single section as there is only one link style on the page */
 
 .content-footer a {
-    color: #ff1975;
+    color: #ccebde;
     text-decoration: none;
-    font-weight: 800;
-    font-size: 1em;
+    font-weight: 400;
+    font-size: 0.85em;
+    font-family: "Montserrat", Helvetica, sans-serif;
+
 }
 
 .content-footer a:hover {
-  color: #ff99c2;
+  color: #f5fbf8;
 }
+
+/***/
+
+.content-footer .icons {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: 0px;
+}
+
+.content-footer .icons li {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.5em;
+    display: inline-block;
+    border: 1px solid #00495c;
+    border-radius: 50%;
+    margin: 0 0.3em;
+}
+
+.content-footer .twitter {
+    color: #55acee;
+}
+
+.content-footer .facebook {
+    color: #4c66a4;
+}
+
+.content-footer .icons .instagram {
+    color: #3f729b;
+}
+
+/***/
 
 /*** RESPONSIVE ELEMENTS FOR SMALL SCREENS ***/
 
