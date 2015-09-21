@@ -54,6 +54,10 @@ body {
     margin-top: 2em;
 }
 
+.social {
+    padding: 0em;
+}
+
 .social > li {
     display: inline-block;
     padding: 0.5em;
@@ -112,6 +116,10 @@ section > h1 {
   .masthead-heading {
     font-size: 3em;
   }  
-
- 
+.introduction-section,
+.location-section,
+.questions-section,
+.content-footer {
+    padding-left: 1em;
+    padding-right: 1em;
 }
