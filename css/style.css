@@ -1,0 +1,117 @@
+html,
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('https://images.unsplash.com/37/rVvORijmSGFcCD1Qin5e_2014-02-23%2006.21.30%201.jpg?q=80&fm=jpg&s=7a028e6f5cf8f5fc1d3a18a2e9a0a0a7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 45%;
+    border-top: solid 1em #ff0066;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: #222222;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em; 
+    text-shadow: 5px 5px 7px #373737;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff0066;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+
+section > h1 {
+    margin-top: 1.2em;
+    font-size: 2em;
+}
+
+.content-footer {
+    background-color: #585858;
+    color: #ffffff;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 5em;
+}
+
+/* formatting for links; single section as there is only one link style on the page */
+
+.content-footer a {
+    color: #ff1975;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.content-footer a:hover {
+  color: #ff99c2;
+}
+
+/*** RESPONSIVE ELEMENTS FOR SMALL SCREENS ***/
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }  
+
+ 
+}
