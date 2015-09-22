@@ -1,6 +1,5 @@
 html,
 body {
-    /* Typography Declarations */
     color: #4c4c4c;
     font-size: 1em;
     font-family: "Neuton", Georgia, serif;
@@ -24,10 +23,8 @@ body {
 }
 
 .masthead-accent {
-    /* Layout Declarations */
     margin-top: -2.5em;
     margin-bottom: 2em;
-    /* Typography Declarations */
     font-family: "Neuton", Georgia, serif;
     font-size: 2em;
     font-weight: 300;
@@ -35,7 +32,6 @@ body {
 }
 
 .masthead-heading {
-    /* Layout Declarations */
     margin-top: -0.2em;
     font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: bold;
@@ -60,12 +56,11 @@ body {
 .location-section > p,
 .content-footer > p,
 .projects-section > p {
-    /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
 }
 
-.questions-section > h2,
+.questions-section > h3,
 .projects-section >h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
@@ -75,7 +70,7 @@ body {
     padding-bottom: 0px;
 }
 
-section > h1 {
+section > h2 {
     margin-top: 1.2em;
     font-size: 2em;
     font-family: "Montserrat", Helvetica, sans-serif;
@@ -159,37 +154,68 @@ section > h1 {
     color: #66929d;
 } 
 
-.content-footer .twitter {
+.content-footer .twitter,
+.content-footer .facebook, 
+.content-footer .instagram,
+.content-footer .github {
     color: #3f729b;
 }
-
-.content-footer .facebook {
-    color: #3f729b;
-}
-
-.content-footer .icons .instagram {
-    color: #3f729b;
-}
-
-.content-footer .icons .github {
-    color: #3f729b;
-}
-
-/***/
 
 /*** RESPONSIVE ELEMENTS FOR SMALL SCREENS ***/
 
 @media only screen and (max-width: 500px) {
-  .masthead {
+  
+    .masthead {
     padding: 3em 0;
-  }
-  .masthead-heading {
+    }
+
+    .masthead-heading {
     font-size: 3em;
-  }  
-.introduction-section,
-.location-section,
-.questions-section,
-.content-footer {
+    }
+  
+    .introduction-section,
+    .location-section,
+    .questions-section,
+    .projects-section,
+    .content-footer {
     padding-left: 1em;
     padding-right: 1em;
+    }
+
+    .content-footer .twitter,
+    .content-footer .facebook, 
+    .content-footer .instagram,
+    .content-footer .github {
+    font-size: 1em;
+    }
+
+    .content-footer .icons {
+    width: 12em;
+    }
+
+    .content-footer .icons li {
+    width: 1em;
+    height: 1em;
+    }
+
+    .masthead-accent {
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    }
+
+    .project-entry li {
+
+    max-width: 10em;
+    display: inline-block; 
+    vertical-align: top;
+    padding: 0.2em;
+    }
+
+    .img-circle {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    border: 1px solid #cccccc;
+    }
 }
