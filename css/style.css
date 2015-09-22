@@ -10,7 +10,7 @@ body {
 
 .content-footer,
 .masthead-heading,
-.masthead-intro {
+.masthead-accent {
   text-align: center;
 }
 
@@ -20,23 +20,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 75%;
-    /* border-top: solid 1em #fa8b3a; */
+    border-top: solid 1em #ffd633;
 }
 
-.masthead-intro {
+.masthead-accent {
     /* Layout Declarations */
-    margin-bottom: 0.1em;
+    margin-top: -2.5em;
+    margin-bottom: 2em;
     /* Typography Declarations */
     font-family: "Neuton", Georgia, serif;
     font-size: 2em;
     font-weight: 300;
-    color: #fff; /* #222222 */
+    color: #ffd633;
 }
 
 .masthead-heading {
     /* Layout Declarations */
     margin-top: -0.2em;
-    /* Typography Declarations */
     font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 6em; 
@@ -48,7 +48,8 @@ body {
 
 .introduction-section,
 .location-section,
-.questions-section {
+.questions-section,
+.projects-section {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
@@ -57,19 +58,21 @@ body {
 
 .introduction-section > p,
 .location-section > p,
-.content-footer > p {
+.content-footer > p,
+.projects-section > p {
     /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
 }
 
-.questions-section > h2 {
+.questions-section > h2,
+.projects-section >h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
     font-weight: bold;
     color: #4c4c4c;
-    /* Layout */
-    margin: 2em 0 1em 0;
+    margin: 2em 0 0 0;
+    padding-bottom: 0px;
 }
 
 section > h1 {
@@ -79,15 +82,41 @@ section > h1 {
     color: #00495c;
 }
 
+.project-entry {
+    padding: 0;
+    margin: 0;
+}
+
+.project-entry li {
+    max-height: 11em;
+    display: inline-block;
+    max-width: 20em;
+    vertical-align: middle;
+    padding: 1em;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 9em;
+    width: 9em;
+    border: 1px solid #cccccc;
+}
+
+.project-entry a {
+    text-decoration: none;
+}
+
+.project-entry a:hover {
+    cursor: pointer;
+}
 .content-footer {
     background-color: #003e59;
-    color: #80a4ae;
+    color: #ffd633;
     padding-top: 3em;
     padding-bottom: 3em;
     margin-top: 5em;
+    border-bottom: solid 1em #ffd633;
 }
-
-/* formatting for links; single section as there is only one link style on the page */
 
 .content-footer a {
     color: #ccebde;
@@ -95,7 +124,6 @@ section > h1 {
     font-weight: 400;
     font-size: 0.85em;
     font-family: "Montserrat", Helvetica, sans-serif;
-
 }
 
 .content-footer a:hover {
