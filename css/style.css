@@ -109,6 +109,7 @@ section > h1 {
 .project-entry a:hover {
     cursor: pointer;
 }
+
 .content-footer {
     background-color: #003e59;
     color: #ffd633;
@@ -150,15 +151,27 @@ section > h1 {
     margin: 0 0.3em;
 }
 
+.content-footer .icons a {
+    color: #3f729b;
+} 
+
+.content-footer .icons a:hover {
+    color: #66929d;
+} 
+
 .content-footer .twitter {
-    color: #55acee;
+    color: #3f729b;
 }
 
 .content-footer .facebook {
-    color: #4c66a4;
+    color: #3f729b;
 }
 
 .content-footer .icons .instagram {
+    color: #3f729b;
+}
+
+.content-footer .icons .github {
     color: #3f729b;
 }
 
