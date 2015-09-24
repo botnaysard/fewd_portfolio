@@ -165,57 +165,57 @@ section > h2 {
 
 @media only screen and (max-width: 500px) {
   
-    .masthead {
+.masthead {
     padding: 3em 0;
-    }
+}
 
-    .masthead-heading {
+.masthead-heading {
     font-size: 3em;
-    }
-  
-    .introduction-section,
-    .location-section,
-    .questions-section,
-    .projects-section,
-    .content-footer {
+}
+
+.introduction-section,
+.location-section,
+.questions-section,
+.projects-section,
+.content-footer {
     padding-left: 1em;
     padding-right: 1em;
-    }
+}
 
-    .content-footer .twitter,
-    .content-footer .facebook, 
-    .content-footer .instagram,
-    .content-footer .github {
+.content-footer .twitter,
+.content-footer .facebook, 
+.content-footer .instagram,
+.content-footer .github {
     font-size: 1em;
-    }
+}
 
-    .content-footer .icons {
+.content-footer .icons {
     width: 12em;
-    }
+}
 
-    .content-footer .icons li {
+.content-footer .icons li {
     width: 1em;
     height: 1em;
-    }
+}
 
-    .masthead-accent {
+.masthead-accent {
     margin-top: -1.5em;
     margin-bottom: 1em;
     font-size: 1.5em;
-    }
+}
 
-    .project-entry li {
-
+.project-entry li {
     max-width: 10em;
     display: inline-block; 
     vertical-align: top;
     padding: 0.2em;
-    }
+}
 
-    .img-circle {
+.img-circle {
     border-radius: 50%;
     height: 5em;
     width: 5em;
     border: 1px solid #cccccc;
-    }
+}
+
 }
